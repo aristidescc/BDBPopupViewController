@@ -29,7 +29,7 @@
 
 
 #pragma mark -
-@interface BDBPopupViewControllerAnimationDelegate : NSObject
+@interface BDBPopupViewControllerAnimationDelegate : NSObject <CAAnimationDelegate>
 
 typedef void (^BDBPopupViewControllerAnimationCompletionBlock)(void);
 
